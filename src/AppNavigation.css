@@ -1,0 +1,18 @@
+.app-navigation a {
+  color: white; /* Changes the color of the link text to white */
+  text-decoration: none; /* Removes the underline from the link */
+}
+
+.app-navigation a button {
+  background-color: #7289da; /* Discord color */
+  color: white; /* Text color */
+  border: none; /* Removes default button border */
+  border-radius: 4px; /* Gives the button slightly rounded corners */
+  padding: 10px 20px; /* Adds some space around the button text */
+  margin: 0 10px; /* Adds some space between the buttons */
+  cursor: pointer; /* Changes the cursor to a hand when hovering over the button */
+}
+
+.app-navigation a button:hover {
+  background-color: #5865f2; /* Changes the button color slightly when hovered */
+}
